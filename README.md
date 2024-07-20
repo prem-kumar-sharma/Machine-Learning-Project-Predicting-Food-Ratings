@@ -5,6 +5,11 @@
 ### Overview
 This project focuses on comparing various machine learning models to determine the best-performing one for a given dataset. The models evaluated include Logistic Regression, Random Forest, K-Nearest Neighbors (KNN), Naive Bayes, and Support Vector Classifier (SVC). The primary goal is to identify the model with the highest accuracy for predictive tasks.
 
+### Screenshots
+![Screenshot 2024-06-24 132357](https://github.com/user-attachments/assets/5b735636-1b25-47b9-83cf-c9744f309dfe)
+![Screenshot 2024-07-20 154919](https://github.com/user-attachments/assets/a86825b7-7ea1-4434-80dc-8e141256ab1d)
+![Screenshot 2024-07-20 154930](https://github.com/user-attachments/assets/781bf083-b0a9-43d6-a479-57ffea1bd5d5)
+
 ### Project Structure
 
 1. **Jupyter Notebook**
