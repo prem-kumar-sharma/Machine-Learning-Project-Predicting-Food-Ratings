@@ -1,46 +1,75 @@
-# Machine-Learning-Project-Predicting-Food-Ratings
-In this project, we aim to predict the ratings of food recipes based on various features such as user comments, user ratings, and other relevant data. The dataset used includes multiple CSV files containing information on recipes, user comments, ratings, and more.
-Machine Learning Project: Predicting Food Ratings
-This repository contains the code and data for a machine learning project developed on Kaggle Colab. The goal of the project is to predict food ratings using various machine learning techniques.
+# README for Machine Learning Project Repository
 
-Project Description
-In this project, we aim to predict the ratings of food recipes based on various features such as user comments, user ratings, and other relevant data. The dataset used includes multiple CSV files containing information on recipes, user comments, ratings, and more.
+## Project Title: Machine Learning Model Comparison and Evaluation
 
-Files in the Repository
-21f1000531-notebook-t12024.ipynb: The Jupyter notebook containing the entire analysis and model development process.
-train.csv, test.csv, sample.csv: The datasets used for training and testing the model.
-Getting Started
-Prerequisites
-To run the notebook, you need the following libraries and tools:
+### Overview
+This project focuses on comparing various machine learning models to determine the best-performing one for a given dataset. The models evaluated include Logistic Regression, Random Forest, K-Nearest Neighbors (KNN), Naive Bayes, and Support Vector Classifier (SVC). The primary goal is to identify the model with the highest accuracy for predictive tasks.
 
-Python 3
-Jupyter Notebook
-NumPy
-Pandas
-Scikit-learn
-Other libraries as mentioned in the notebook
-You can install the required libraries using:
+### Project Structure
 
-bash
-Copy code
-pip install -r requirements.txt
-Running the Notebook
-Clone this repository:
+1. **Jupyter Notebook**
+   - Contains the entire workflow of the project, including data loading, preprocessing, model training, evaluation, and visualization of results.
+   - The notebook is available in [21f1000531-notebook-t12024.ipynb](link to 21f1000531-notebook-t12024.ipynb).
 
-bash
-Copy code
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
-Open the notebook in Jupyter or any compatible environment and run the cells to see the analysis and results.
+### Key Findings
 
-Project Workflow
-Data Exploration: Initial exploration of the dataset to understand its structure and contents.
-Data Cleaning: Checking for and handling null values, data type conversions, and other preprocessing steps.
-Feature Engineering: Creating new features and preparing the data for modeling.
-Model Training: Applying various machine learning models to the data and evaluating their performance.
-Model Evaluation: Assessing the models using appropriate metrics and selecting the best-performing model.
-Results
-Summarize the results or findings of your project, including key metrics and model performance.
+- **Model Accuracy**: Logistic Regression achieved the highest accuracy of 77.67%, making it the preferred model for predictions in this project.
+- **Comparison of Models**: The project compared five different models, each evaluated on their accuracy to determine the best performer.
 
-Contributing
-If you would like to contribute, please fork the repository and use a feature branch. Pull requests are welcome.
+### Models Evaluated
+
+1. **Logistic Regression**
+   - Accuracy: 77.67%
+
+2. **Random Forest**
+   - Accuracy: 77.56%
+
+3. **K-Nearest Neighbors (KNN)**
+   - Accuracy: 73.30%
+
+4. **Naive Bayes**
+   - Accuracy: 76.38%
+
+5. **Support Vector Classifier (SVC)**
+   - Accuracy: 76.68%
+
+### Technologies Used
+
+- **Python**: The primary programming language used for data manipulation and model training.
+- **Jupyter Notebook**: For interactive coding and documenting the workflow.
+- **Pandas**: For data loading and preprocessing.
+- **Scikit-learn**: For model training and evaluation.
+- **Seaborn and Matplotlib**: For data visualization and plotting model comparison graphs.
+
+### How to Use This Repository
+
+1. **Clone the Repository**: 
+   ```bash
+   git clone https://github.com/prem-kumar-sharma/ML-Model-Comparison.git
+   ```
+2. **Navigate to Project Files**:
+   ```bash
+   cd ML-Model-Comparison
+   ```
+3. **Run the Jupyter Notebook**:
+   - Ensure you have Jupyter Notebook installed. If not, you can install it using:
+     ```bash
+     pip install notebook
+     ```
+   - Start the Jupyter Notebook server:
+     ```bash
+     jupyter notebook
+     ```
+   - Open the notebook `21f1000531-notebook-t12024.ipynb` and execute the cells to reproduce the results.
+
+### Contact Information
+
+- **Name**: Prem Kumar
+- **LinkedIn**: [Prem Kumar](https://www.linkedin.com/in/prem-kumar-a499b1201/)
+- **GitHub**: [Prem Kumar Sharma](https://github.com/prem-kumar-sharma)
+
+Feel free to reach out for any queries or further information regarding the project.
+
+---
+
+This README file provides an overview of the machine learning project, including key findings, model evaluation, and instructions on how to use the repository. It is intended to guide users and collaborators in understanding the project's objectives and results.
